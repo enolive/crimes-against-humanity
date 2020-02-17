@@ -19,6 +19,15 @@ instance Monad ((->) r)
 
 why not abuse it?
 
+In case you are wondering about the weird commit messages, they were
+generated using [whatthecommit.com's generator](www.whatthecommit.com) and this
+nice git alias:
+
+```
+[alias]
+    yolo = !git commit -m \"$(curl -s http://whatthecommit.com/index.txt)\"
+```
+
 ## Usage
 
 ### Run Tests
