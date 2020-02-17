@@ -1,5 +1,7 @@
 # crimes-against-humanity
 
+Me trying to be funny and write some cryptic shit in Haskell.
+
 ## Usage
 
 ### Build
